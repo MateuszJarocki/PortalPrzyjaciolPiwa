@@ -1,0 +1,189 @@
+nav {
+    background-color: rgb(124, 101, 1);
+    padding: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hello {
+    color: white;
+    margin-right: 20px;
+}
+
+.option, .option1 {
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(124, 101, 1);
+    margin: 0 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.option1 {
+    margin-left: 20px;
+}
+
+.option:hover, .option1:hover {
+    background-color: rgb(124, 101, 1);
+    color: blanchedalmond;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding-top: 80px;
+}
+
+section {
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(124, 101, 1);
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+table, th, tr {
+    border: 2px solid rgb(124, 101, 1);
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 2px solid rgb(124, 101, 1);
+    padding: 10px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+}
+
+.form {
+    background-color: blanchedalmond;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-input {
+    margin: 10px 0;
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid rgb(124, 101, 1);
+    border-radius: 5px;
+}
+
+.login-button {
+    padding: 10px;
+    background-color: rgb(124, 101, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-button:hover {
+    background-color: rgb(150, 122, 0);
+}
+
+.link {
+    margin-top: 15px;
+}
+
+.link a {
+    color: rgb(124, 101, 1);
+    text-decoration: none;
+}
+
+
+
+.category-links {
+    white-space: nowrap; 
+  }
+  
+  .category-links a {
+    margin-right: 10px; 
+  }
+.search-form {
+    margin: 20px 0;
+}
+
+.search-input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid rgb(124, 101, 1);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px;
+    background-color: rgb(124, 101, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: rgb(150, 122, 0);
+}
+
+.add-new-link {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    color: rgb(124, 101, 1);
+    border: 2px solid rgb(124, 101, 1);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.add-new-link:hover {
+    background-color: rgb(124, 101, 1);
+    color: blanchedalmond;
+}
